@@ -1,0 +1,122 @@
+html{
+    font-family: 'Raleway', sans-serif;
+}
+/*--------MAIN PAGE -----------*/
+
+#main {
+    color: white;
+    background-color: black;
+    background-image: url('/img/maxresdefault.jpg');
+    
+}
+#nav{
+    background-color: black;
+    width: 50px;
+    height: 400px;
+    display: flex;
+    align-items: right;
+    flex-direction: column;
+    text-align: center;
+}
+#button{
+    font-size: 25px;
+    color: rgb(245, 210, 14);
+    font-weight: bold;
+    text-decoration: none;
+    padding: 15px;
+    
+  
+}
+#button:hover{
+    font-size: 25px;
+    color: black;
+    font-weight: bold;
+    text-decoration: none;
+    background-color: rgb(245, 210, 14);
+    padding: 15px;
+    border-radius: 5px ;
+}
+
+
+/*---------ABOUT/WORKS PAGE------------*/
+
+#nav_bar{
+    background-color: black;
+    text-align: right;
+    color:  rgb(245, 210, 14);
+    padding-right: 50px;
+    
+
+}
+
+
+#paragraph{
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    flex-direction: column;
+    text-align: center;
+}
+
+#personName{
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    flex-direction: column;
+    text-align: center;
+}
+#bottom_nav{
+    background-color: black;
+    border: solid black;
+    border-radius: 5px;
+    width: 120px;
+    height: 50px;
+    display: flex;
+    align-items: right;
+    flex-direction: row;
+    text-align: center;
+}
+
+#small_button{
+    font-size: 20px;
+    color: rgb(245, 210, 14);
+    font-weight: bold;
+    text-decoration: none;
+    padding: 15px;
+    
+  
+}
+#small_button:hover{
+    font-size: 20px;
+    color: black;
+    font-weight: bold;
+    text-decoration: none;
+    background-color: rgb(245, 210, 14);
+    padding: 15px;
+    border-radius: 5px ;
+}
+
+/*-------------WORKS--------------*/
+
+.works{
+    display: flex;
+    justify-content: flex-start;
+     
+}
+
+.fender{
+    width: 400px;
+    padding: 50px;
+    
+    
+}
+.music_man{
+    width: 300px;
+    padding: 50px;
+    
+}
+.gL{
+    width: 300px;
+    padding: 50px;
+   
+}
